@@ -36,8 +36,16 @@ p {
     font: 400 1rem/1.625rem "Open Sans", sans-serif;
 }
 
-.lmtWIHO_gkbTeeyuvoJC {
-    background-color: transparent !important;
+calendly-popup {
+    scrollbar-width: none;
+    /* Firefox */
+    -ms-overflow-style: none;
+    /* IE y Edge */
+}
+
+calendly-popup::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari y Opera */
 }
 
 h1 {
@@ -178,6 +186,7 @@ p {
     color: #ffffff;
     /* needs to stay here because of the color property of a tag */
     text-decoration: none;
+    cursor: pointer;
 }
 
 .btn-solid-lg .fab {
@@ -1045,6 +1054,14 @@ a:hover.back-to-top {
 
 .text-orange:hover {
     color: #FFD733;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 
